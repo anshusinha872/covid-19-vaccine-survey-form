@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./form-style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Survey form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div>
+            <form id="form">
+                <div>
+                    <label for="name-input" class="text" >Name</label>
+                    <input id="name-input" placeholder="Enter your name" type="text" required>
+                </div>
+                <div>
+                    <label for="email" class="text">Email</label>
+                    <input type="email" name="" id="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="age" class="text">Age(Optional)</label>
+                    <input type="age">
+                </div>
+                <div>
+                    <p>Which option best desribe your current role</p>
+                    <select name="" id="">
+                        <option disabled for selected value> Select current role</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">projects</option>
+                        <option value="community">community</option>
+                        <option value="open-source">Open-source</option>
+                    </select>
+                    <p>
+                        Would you recommend us to a friend?
+                    </p>
+                    <label for="recommend" class="text"><input type="radio" id="recommend" name="radio-buttons" value="Definitely" checked >Definitely</label>
+                    <label for="recommend" class="text"><input type="radio" id="recommend" name="radio-buttons" value="Maybe">Maybe</label>
+                    <label for="recommend" class="text"><input type="radio" id="recommend" name="radio-buttons" value="Never">Not sure</label>
+                </div>
+                <div>
+                    <p>Which feature you liked most</p>
+                    <select name="" id="">
+                        <option disabled for selected value="">Select an Option</option>
+                        <option class="text" value="challenges">challenges</option>
+                        <option class="text" value="projects">projects</option>
+                        <option class="text" value="community">community</option>
+                        <option class="text" value="open source">open source</option>
+                    </select>
+                </div>
+                <div>
+                    <p>What would you like to see improved? (check all that apply</p>
+                    <label for=""><input class="text" type="checkbox">Front-end project</label>
+                    <label for=""><input class="text" type="checkbox">Back-end projects</label>
+                    <label for=""><input class="text" type="checkbox">Data Visualization</label>
+                    <label for=""><input class="text" type="checkbox">challenges</label>
+                    <label for=""><input class="text" type="checkbox">open source community</label>
+                    <label for=""><input class="text" type="checkbox">Better help room</label>
+                    <label for=""><input class="text" type="checkbox">videos</label>
+                    <label for=""><input class="text" type="checkbox">City Meetups</label>
+                    <label for=""><input class="text" type="checkbox">Wiki</label>
+                    <label for=""><input class="text" type="checkbox">Forum</label>
+                    <label for=""><input class="text" type="checkbox">Additional Courses</label>
+                </div>
+                <div>
+                    <p>Any comment or suggestions?</p>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Enter your comment here....."></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body{
+    background: url(./pexels-anna-shvets-3786157.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center ;
+    /* background-repeat: no-repeat; */
+    margin-left: 200px;
+}
+h1{
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+}
+
+.text-label{
+    /* margin:0 50px 10px 0; */
+    /* display: inline-block */
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-weight: 400;
+}
+p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.main-text{
+    font-size: 20px;
+}
+.flex-box-1{
+    display: flex;
+    justify-content:space-between;
+}
+.contact-area{
+    display: flex;
+    margin: 20px 0 20px 0;
+    flex-direction: row;
+}
+.flex-box{
+    display: flex;
+    align-content: flex-start;
+    margin: 0 10px 10px 40px;
+    align-content: space-between;
+}
+.vaccine{
+    margin: 0 0 0 60px;
+}
+.main-area{
+    background-color: rgba(151, 148, 190, 0.397);
+    margin: 0 10% 0 10%;
+    width: max-content;
+    padding: 10px;
+    border: 10px solid rgba(151, 148, 190, 0.397);
+    border-radius: 10px;
+    z-index:3;
+    /* background-position: center; */
+}
+.input-area{
+    display: block;
+    width: 100%;
+    margin:10px auto 10px auto;
+    height: 2.375rem;
+    /* padding: 0.375rem 0.75rem; */
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.submit{
+    /* color:rgba(0, 255, 0, 0.6); */
+    margin: 0 auto 0 auto;
+    display: block;
+    /* width: 100%; */
+    padding: 0.75rem;
+    background: var(--color-green);
+    /* color: inherit; */
+    border-radius: 2px;
+    cursor: pointer;
+}
+.detail{
+    margin: 0 0 0 250px;
+}

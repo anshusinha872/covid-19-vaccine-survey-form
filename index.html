@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vaccine Survey Form</title>
+    <link rel="stylesheet" href="./form-style.css">
+</head>
+
+<body>
+    
+        <header>
+            <h1>COVID-19 Vaccine Survey</h1>
+        </header>
+        <div class="main-area">
+        <div>
+            <form id="form">
+                <div>
+                    <label for="name-input" class="text-label">Name</label>
+                    <input id="name-input" class="text-label input-area" placeholder="Enter your name" type="text" required>
+                </div>
+                <div>
+                    <label for="email" class="text-label">Email</label>
+                    <input type="email" name="" class="text-label input-area" id="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="age" class="text-label">Age</label>
+                    <input type="age" id="age" class="text-label input-area" placeholder="Enter your age" required>
+                </div>
+                <div>
+                    <label for="DOB" class="text-label">Birth Date</label>
+                    <input type="date" class="text-label input-area" id="DOB" required>
+                </div>
+                
+                <div class="contact-area flex-box-1">
+                    <label for="gender" class="text-label">Gender</label>
+                    <label for="male" class="main-text"><input type="radio" id="male" name="gender">male</label>
+                    <label for="female" class="main-text"><input type="radio" id="female" name="gender">female</label>
+                </div>
+                <div class="contact-area flex-box-1">
+                    <label for="contact" class="text-label">Phone number</label>
+                    <input type="text" class="" id="contact">
+                </div>
+                <div>
+                    <p>Are you planning to get the COVID-19 vaccine</p>
+                    <label  for="yes" class="main-text vaccine"   ><input class="main-text " type="radio" name="plan" id="yes" checked>Yes</label>
+                    <label for="No" class="main-text vaccine" ><input class="main-text" type="radio" name="plan" id="No">No</label>
+                    <label for="Not sure" class="main-text vaccine" ><input class="main-text" type="radio" name="plan" id="Not sure">Not-sure</label>
+                </div>
+                <div>
+                    <p>Do you have any of the followings? (Select all that apply?</p>
+                    <label for="Lung disease" class="main-text flex-box"><input class="main-text" type="radio" id="Lung disease">Lung disease</label>
+                    <label for="Heartdisease" class="main-text flex-box"><input class="main-text" type="radio" id="Heartdisease">Heartdisease</label>
+                    <label for="Asthma" class="main-text flex-box"><input class="main-text" type="radio" id="Asthma">Asthma</label>
+                    <label for="Kidney Disease" class="main-text flex-box"><input class="main-text" type="radio" id="Kidney Disease">Kidney Disease</label>
+                    <label for="Diabetes" class="main-text flex-box"><input class="main-text" type="radio" id="Diabetes">Diabetes</label>
+                    <label for="Anemia" class="main-text flex-box"><input class="main-text" type="radio" id="Anemia">Anemia</label>
+                    <label for="Blood disorder" class="main-text flex-box"><input class="main-text" type="radio" id="Blood disorder">Blood disorder</label>
+                    <label for="None" class="main-text flex-box"><input class="main-text" type="radio" id="None">None</label>
+                    
+                </div>
+
+                <div>
+                    <p>Do you have Immunocompromised condition?(check all that apply)</p>
+                    <label class="main-text flex-box" for="Cancer"><input class="text main-text " type="checkbox" id="Cancer">Cancer</label>
+                    <label class="main-text flex-box" for="Leukemia"><input class="text main-text" type="checkbox" id="Leukemia">Leukemia</label>
+                    <label class="main-text flex-box" for="Lymphoma"><input class="text main-text " type="checkbox" id="Lymphoma">Lymphoma</label>
+                    <label class="main-text flex-box" for="HIV/AIDS"><input class="text main-text" type="checkbox" id="HIV/AIDS">HIV/AIDS</label>
+                    <label class="main-text flex-box" for="Transplant"><input class="text main-text" type="checkbox" id="Transplant">Transplant</label>
+                    <label class="main-text flex-box" for="Asplenia"><input class="text main-text" type="checkbox" id="Asplenia">Asplenia</label>
+                    <label class="main-text flex-box" for="CSF leak"><input class="text main-text" type="checkbox" id="CSF leak">CSF leak</label>
+                    <label class="main-text flex-box" for="Cochlear Implant"><input class="text main-text" type="checkbox" id="Cochlear Implant">Cochlear Implant</label>
+                    <label class="main-text flex-box" for="none"><input class="text main-text" type="checkbox" id="none">None</label>
+                </div>
+                <div>
+                    <p>Have you ever tested poitive for COVID-19?</p>
+                    <label class="main-text vaccine" for="yes1"><input class="main-text" type="radio" id="yes1" name="test">Yes</label>
+                    <label class="main-text vaccine" for="no"><input class="main-text" type="radio" id="no" name="test" checked>No</label>
+                </div>
+                <div>
+                    <p>In the last 14 days,have you contacted with a person who was confirmed to have COVID-19</p>
+                    <label class="main-text vaccine" for="contact-tracing-yes"><input type="radio" id="contact-tracing-yes" name="contact-tracing">Yes</label>
+                    <label class="main-text vaccine" for="contact-tracing-no"><input type="radio" name="contact-tracing" id="contact-tracing-no" >No</label>
+                    <label class="main-text vaccine" for="contact-tracing-not-sure"><input type="radio" name="contact-tracing" id="contact-tracing-not-sure">Not sure</label>
+                </div>
+                <div>
+                    <p>In the last 14 days, have you travelled internationally?</p>
+                    <label class="main-text vaccine" for="travel-yes"><input type="radio" id="travel-yes" name="travel">Yes</label>
+                    <label class="main-text vaccine" for="travel-no"><input type="radio" id="travel-no" name="travel" checked>No</label>
+                </div>
+                <div>
+                    <p>Do you have any of the followings?</p>
+                    <label class="main-text flex-box" for="cold"><input class="text" type="checkbox" id="cold">Cold</label>
+                    <label class="main-text flex-box" for="cough"><input class="text" type="checkbox" id="cough">Cough</label>
+                    <label class="main-text flex-box" for="fever"><input class="text" type="checkbox" id="fever">Fever</label>
+                    <label class="main-text flex-box" for="breath"><input class="text" type="checkbox" id="breath">Shortness of Breath</label>
+                    <label class="main-text flex-box" for="sore-throat"><input class="text" type="checkbox" id="sore-throat">Sore throat</label>
+                    <label class="main-text flex-box" for="loss-of-smell"><input class="text" type="checkbox" id="loss-of-smell">Loss of smell/taste</label>
+                    <label class="main-text flex-box" for="pain"><input class="text" type="checkbox" id="pain">Abdominal pain/diarrhea</label>
+                    <label class="main-text flex-box" for="redness"><input class="text" type="checkbox" id="redness">Abnormal bruising or bleeding/eye redness</label>
+                </div>
+                <div>
+                    <p>which of the following define your concern about getting the vaccine</p>
+                    <label class="main-text flex-box" for="side-effect"><input type="checkbox" id="side-effect">I have concern about the vaccine's side effects, logn-term safety and efficancy</label>
+                    <label class="main-text flex-box" for="religious reasons"><input type="checkbox" id="religious reasons">I have religious reasons</label>
+                    <label class="main-text flex-box" for="solution"><input type="checkbox" id="solution">I do not believe it will be a solution for Coronavairus disease</label>
+                    <label class="main-text flex-box" for="negative"><input type="checkbox" id="negative">I believe thet it will have negative effects on my health</label>
+                    <label class="main-text flex-box" for="other"><input type="checkbox" id="other">Others</label>
+                </div>
+                <div>
+                    <p>Which of the following would be helpful if you did not decide yet</p>
+                    <label class="main-text flex-box" for="doctor"><input type="checkbox" id="doctor">If my doctor would approve</label>
+                    <label class="main-text flex-box" for="legal authorities"><input type="checkbox" id="legal authorities">If legal authorities would approve</label>
+                    <label class="main-text flex-box" for="written review"><input type="checkbox" id="written review">If a detailed written review would be shared with public about how the vaccine produced and what it contains</label>
+                    <label class="main-text flex-box" for="observe how other"><input type="checkbox" id="observe how other">I want to wait for a period to observe how other people react to the vaccine</label>
+                    <label class="main-text flex-box" for="Others"><input type="checkbox" id="Others">Others</label>
+                </div>
+                <div>
+                    <p>Please explain your reasons</p>
+                    <textarea class="detail" name="" id="" cols="50" rows="10" placeholder="Type here....."></textarea>
+                </div>
+                <div>
+                    <input class="submit" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
