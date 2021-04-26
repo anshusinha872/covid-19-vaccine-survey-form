@@ -50,7 +50,7 @@ p{
 .main-area{
     background-color: rgba(151, 148, 190, 0.397);
     margin: 0 10% 0 10%;
-    width: max-content;
+    width: 80%vw;
     padding: 10px;
     border: 10px solid rgba(151, 148, 190, 0.397);
     border-radius: 10px;
