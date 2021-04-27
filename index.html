@@ -10,38 +10,44 @@
 </head>
 
 <body>
-    
+        <div class="topnav">
+            <a href="#">Home</a>
+            <a href="#">Covid-19</a>
+            <a href="#">About Us</a>
+            <a href="#">Others</a>
+        </div>
         <header>
             <h1>COVID-19 Vaccine Survey</h1>
         </header>
+        
         <div class="main-area">
         <div>
             <form id="form">
                 <div>
                     <label for="name-input" class="text-label">Name</label>
-                    <input id="name-input" class="text-label input-area" placeholder="Enter your name" type="text" required>
+                    <input id="name-input" class="text-label-input input-area" placeholder="Enter your name" type="text" required>
                 </div>
                 <div>
                     <label for="email" class="text-label">Email</label>
-                    <input type="email" name="" class="text-label input-area" id="email" placeholder="Enter your email" required>
+                    <input type="email" name="" class="text-label-input input-area" id="email" placeholder="Enter your email" required>
                 </div>
                 <div>
                     <label for="age" class="text-label">Age</label>
-                    <input type="age" id="age" class="text-label input-area" placeholder="Enter your age" required>
+                    <input type="age" id="age" class="text-label-input input-area" placeholder="Enter your age" required>
                 </div>
                 <div>
                     <label for="DOB" class="text-label">Birth Date</label>
-                    <input type="date" class="text-label input-area" id="DOB" required>
+                    <input type="date" class="text-label-input input-area" id="DOB" required>
                 </div>
                 
-                <div class="contact-area flex-box-1">
-                    <label for="gender" class="text-label">Gender</label>
-                    <label for="male" class="main-text"><input type="radio" id="male" name="gender">male</label>
-                    <label for="female" class="main-text"><input type="radio" id="female" name="gender">female</label>
+                <div class="contact-area ">
+                    <label for="gender" class="text-label flex-box-gender">Gender</label>
+                    <label for="male" class="main-text flex-box-gender "><input type="radio" id="male" class="" name="gender">male</label>
+                    <label for="female" class="main-text flex-box-gender"><input type="radio" id="female" name="gender">female</label>
                 </div>
                 <div class="contact-area flex-box-1">
-                    <label for="contact" class="text-label">Phone number</label>
-                    <input type="text" class="" id="contact">
+                    <label for="contact" class="text-label flex-box-1">Phone number</label>
+                    <input type="text" class="text-label-input input-area-contact flex-box-1" id="contact">
                 </div>
                 <div>
                     <p>Are you planning to get the COVID-19 vaccine</p>
@@ -119,7 +125,7 @@
                 </div>
                 <div>
                     <p>Please explain your reasons</p>
-                    <textarea class="detail" name="" id="" cols="50" rows="10" placeholder="Type here....."></textarea>
+                    <textarea class="detail text-label-input " name="" id="" cols="50" rows="10" placeholder="Type here....."></textarea>
                 </div>
                 <div>
                     <input class="submit" type="submit">
